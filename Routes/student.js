@@ -7,7 +7,7 @@ const studentRouter=Express.Router();
 
 const studentCollection=db.collection("students");
 
-//api to add student and teacher data
+//api to add student and teacher data in this same api mail will be trigged
 studentRouter.post('/',async(req,res)=>{
 try{
     // const data={
